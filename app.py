@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # 1. Load the trained model from pkl
-with open("my_model.pkl", "rb") as f:
+with open("loan_pipeline.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Loan Approval Predictor")
